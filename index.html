@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personam.ai</title>
+
+    <link rel='stylesheet' href='assets/normalize.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/mobile.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/wide.css' type='text/css' media='all' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div style="background:#2B2A2A" id="outerMost">
+
+
+
+
+        <div id="fixedDesktopNav" class="mobileHide"
+            style="background: white;width:100%;min-height: 61px;z-index: 8;position: fixed;">
+            <nav class="center11"
+                style="min-height: 10px;background: white;color:#333;max-width: 1100px;margin: auto;min-width: 900px;margin: auto;">
+                <a href="/"><img src="assets/logo.svg" alt=""
+                        style="cursor:pointer;padding: 2px; width: 146px; padding-top: 5px; padding-bottom: 0;"></a>
+                <div id="buttonGroup">
+                    <button onclick="scrollToSection('plantDiv')">About</button>
+                    <button onclick="scrollToSection('threats')">Threats</button>
+                    <button onclick="scrollToSection('expert')">Solutions</button>
+                    <button style="display:none" onclick="scrollToSection('expert')">Resources</button>
+                    <button onclick="location.assign('/contact/')">Contact</button>
+                    <button style="display:none" onclick="scrollToSection('compare')">Contact</button>
+                </div>
+            </nav>
+        </div>
+
+        <div id="mobileNav"><a href="/"><img src="assets/logo.svg" alt=""
+                    style="padding: 10px;width: 136px;padding-top: 20px;padding-left: 25px;"></a><button
+                onclick="showmobileButtonGroup()"
+                style="font-size: 23px;position: absolute;right: 4%;top: 17px;background: #e3e3e3;">☰</button>
+            <div id="buttonGroupMobile">
+
+                <section class="mobileButtonGroup">
+                    <button onclick="scrollToSection('plantDivMobile')">About</button><br>
+                    <button onclick="scrollToSection('threatsMobile')">Threats</button><br>
+                    <button onclick="scrollToSection('expertMobile')">Solutions</button><br>
+                    <button style="display:none" onclick="scrollToSection('expertMobile')">Resources</button>
+                    <button onclick="location.assign('/contact/')">Contact</button><br>
+                    <button style="display:none" onclick="scrollToSection('compareMobile')">Contact</button>
+                </section>
+            </div>
+        </div>
+
+        <div id="main1100">
+
+
+
+
+
+
+
+
+            <div id="cloudy">
+                <section id="towerBGMobile">
+                    <div class='center11'>
+                        <div class="expand " style="margin-left:0">
+                            <h1 class="mobileCenter h1C desktop" style="margin-top:105px">The ONLY Network Threat
+                                Detection
+                                Engine your SOC Needs</h1>
+                            <h1 class="mobileCenter h1C mobile"
+                                style="padding-top: 85px;margin-top:105px;font-size: 38px;max-width:unset;">The ONLY
+                                Network<br>Threat Detection Engine<br>your SOC Needs</h1>
+                                <div class="mobileCenter demoButton"> <button onclick="location.assign('/contact/')" class="gray heroButton" style="font-size: 14px;margin-top: -7px;position: absolute;">Schedule
+                                    a Demo</button> </div>
+                    </div>
+                    <div id="mobileBullets" style="text-align: center; color:#333;padding:0;">
+                        <div style="display:flex;transform: scale(0.94);padding-top: 46px;">
+                            <img src="assets/mobile1v2.svg" style="width: 100%;margin:0 30px 40px 30px">
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+                <section id="towerBG">
+
+                    <div class='center11'>
+                        <div class="expand " style="margin-left:0">
+                            <h1 class="mobileCenter h1C desktop" style="margin-top:105px">The ONLY Network Threat
+                                Detection
+                                Engine your SOC Needs</h1>
+                            <h1 class="mobileCenter h1C mobile"
+                                style="padding-top: 85px;margin-top:105px;font-size: 38px;max-width:unset;">The ONLY
+                                Network<br>Threat Detection Engine<br>your SOC Needs</h1>
+                            <div class="mobileCenter demoButton"> <button class="gray heroButton"
+                                      onclick="location.assign('/contact/')"  style="font-size: 14px; margin-top: -72px; position: absolute; ">Schedule
+                                    a Demo</button> </div>
+                        </div>
+
+                    </div>
+ <div id="majorBullets" class="mobileHide">
+
+                        <img class="recboxtop" id="rule" src="assets/rulesets-dark.svg" onmouseover="swap('rule')" alt="">
+                        <img class="recboxtop" id="agent" src="assets/agents.svg" alt="" onmouseover="swap('agent')">
+
+                        <img class="recboxtop" id="signa" src="assets/signa.svg" alt="" onmouseover="swap('signa')">
+                        <img class="recboxtop" id="alertf" src="assets/no-fat.svg" alt="" onmouseover="swap('alertf')">
+                    </div>
+                </section>
+            </div>
+
+
+
+            <section id="plantDivMobile" style="scroll-margin-top: 61px;">
+
+                <div class="center11">
+
+
+                    <div class="expand gotReal" style="text-align: left; display:none">
+                        <h2 class="mobileCenter h2real">Threat Detection Powered by AI</h2>
+                        <div class="rec15" style="width:50%;margin-top: -4%; position: relative;"></div>
+                        <p style="font-size:20px;" class="mobileCenter"> IT Just Got Real </p>
+                    </div>
+
+
+                    <div class="expand fadeBoxM" style="float:left;font-size: 13px;">
+                        <h3 class="mobileCenter" style="margin-top: -3px;">Personam.ai is Peace of Mind</h3>
+                        <div class="rec15" style="width:50%;margin-top: -2%; position: relative;"></div>
+
+                        <p> Our vision is to improve your vision into your security environment to allow you to see
+                            cyber
+                            threats that other NDR/XDR platforms can't. </p>
+                        <p> Personam uses our patented, next-generation artificial intelligence to learn your network
+                            inside
+                            and out; how it operates (and who uses) it without having to deal with rule sets, complex
+                            deployments, or alert fatigue. </p>
+                    </div>
+
+                </div>
+                <!-- https://meet.google.com/jxe-acui-vjd -->
+            </section>
+
+            <section id="plantDiv" style="scroll-margin-top: 61px;">
+
+                <div class="center11">
+                    <div class="expand fadeBox"
+                        style="float:left;width: 57%;max-width: 59%;text-align: justify;transform: scale(1.2);">
+                        <h2 class="mobileCenter" style="margin-top: 0px;">Personam.ai is Peace of Mind</h2>
+                        <div class="rec15" style="width: 34%;margin-top: -4%;position: relative;"></div>
+                        <p> Our vision is to improve your vision into your security environment to allow you to see
+                            cyber
+                            threats that other NDR/XDR platforms can't. </p>
+                        <p> Personam uses our patented, next-generation artificial intelligence to learn your network
+                            inside
+                            and out; how it operates (and who uses) it without having to deal with rule sets, complex
+                            deployments, or alert fatigue. </p>
+                    </div>
+                    <div class="expand gotReal" style="text-align: left;display: none;">
+                        <h2 class="mobileCenter h2real">Threat Detection Powered by AI</h2>
+                        <div class="rec15" style="width:50%;margin-top: -9%;position: relative;float: left;"></div>
+                        <p style="font-size:32px;" class="mobileCenter"> IT Just Got Real </p>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+            <section id="threatsMobile" class="expand idiv"
+                style="text-align: center; background: url(assets/office.jpg);background-size: cover;min-height:350px; ">
+                <div class="center11">
+                    <h2 style="color:#83984B;font-size:26px;">Always Learning</h2>
+                    <h3 class="lineHeight0" style="color:#333;font-size:26px;margin-top: -22px;"> We take Cyber threats
+                        Personally</h3>
+                    <div class="rec15" style="width:20%;position: relative;margin: auto;margin-top: -15px;"></div>
+                    <p style="color:#333">
+
+                    </p>
+                    <div class="sbar2" style="transform:scale(1);margin-top: 38px;">
+                        <div class="containerFLEX" style="line-height: 33px;">
+                            <div class="innerFLEX" style="padding-left: 24px;">
+                                <p class="tbullets" onmouseover="updateTopic(0)" style="cursor: pointer;"> <img
+                                        src="assets/check-green.svg" style="margin-top: -6px;
+                                        margin-bottom: -2px;">
+                                    RansomWare</p>
+                                <p class="tbullets" onmouseover="updateTopic(1)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="margin-top: -6px;
+                                        margin-bottom: -2px;height: 12px;position: relative;top: 3px;">
+                                    Phishing</p>
+                                <p class="tbullets" onmouseover="updateTopic(2)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="margin-top: -6px;
+                                        margin-bottom: -2px;height: 12px;position: relative;top: 3px;"> Data
+                                    Exfiltration</p>
+                                <p class="tbullets" onmouseover="updateTopic(3)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="margin-top: -6px;
+                                        margin-bottom: -2px;height: 12px;position: relative;top: 3px;">
+                                    Privilege Escalation</p>
+
+                                <p class="tbullets" onmouseover="updateTopic(8)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="height: 12px;position: relative;top: 3px;">
+                                    Malicious Insiders</p>
+                            </div>
+
+
+                            <div class="innerFLEX">
+                                <p class="tbullets" onmouseover="updateTopic(5)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="margin-top: -6px;
+                                        margin-bottom: -2px;height: 12px;position: relative;top: 3px;"> System
+                                    Misuse</p>
+                                <p class="tbullets" onmouseover="updateTopic(6)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="margin-top: -6px;
+                                        margin-bottom: -2px;height: 12px;position: relative;top: 3px;">
+                                    Hijacked Credentials</p>
+                                <p class="tbullets" onmouseover="updateTopic(7)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="margin-top: -6px;
+                                        margin-bottom: -2px;height: 12px;position: relative;top: 3px;">
+                                    Implants</p>
+                                <p class="tbullets" onmouseover="updateTopic(4)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="margin-top: -6px;
+                                        margin-bottom: -2px;height: 12px;position: relative;top: 3px;"> Denial
+                                    of Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+
+            </section>
+
+            <section id="expandMobile" class="expand idiv" style="text-align: center;background: #83984B; padding:6px">
+                <h2 class="reverse" id="topicHeadline">Hijacked Credentials</h2>
+                <div class="nowide"></div>
+                <div class="topicBox">
+                    <div class="containerFLEX" style="
+                margin-top: -8%;">
+                        <span id="topicPs"><img src="assets/check.svg">
+                            <p>Hijacked Credentials result from attackers successfully compromising a user via attacks
+                                such as phishing, malware, and social engineering. The goal is to carry out activities
+                                using these stolen credentials so that malicious actions are not detected in time.&nbsp;
+                            </p><img src="assets/check.svg">
+                            <p>Hijacked credentials do not occur in a vacuum and are preceded by other attacks like
+                                malware, phishing, etc., all of which Personam can proactively detect. Once an attacker
+                                attempts to misuse the credential that was stolen, this will be picked up by Personam’s
+                                powerful AI engine as a security deviation.</p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section id="threats" class="expand idiv"
+                style="text-align: center; background: url(assets/Backgroundb.png);background-size: cover;    background-position: center;scroll-margin-top: 61px;">
+                <div class="center11">
+                    <h2 style="color:#83984B;margin-top: -10px;">Always Learning</h2>
+                    <h3 class="lineHeight0" style="margin-top: -8px;color:#333;font-size: 48px;font-weight:400;"> We
+                        take Cyber threats Personally</h3>
+                    <div class="rec15" style="width:20%;margin-top: 9%;position: relative;margin: auto;"></div>
+                    <p style="color:#333">
+
+                    </p>
+                    <div class="sbar" style="transform:scale(1.3);margin-top: 55px;">
+                        <div class="containerFLEX" style="line-height: 33px; padding: 0 0 0 48px;">
+                            <div class="innerFLEX">
+                                <p class="tbullets" onmouseover="updateTopic(0)" style="cursor: pointer;"> <img
+                                        src="assets/check-green.svg" style="height: 12px;"> RansomWare</p>
+                                <p class="tbullets" onmouseover="updateTopic(1)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="height: 12px;"> Phishing</p>
+                                <p class="tbullets" onmouseover="updateTopic(2)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="height: 12px;"> Data Exfiltration</p>
+                            </div>
+                            <div class="innerFLEX">
+                                <p class="tbullets" onmouseover="updateTopic(3)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="height: 12px;"> Privilege Escalation</p>
+                                <p class="tbullets" onmouseover="updateTopic(4)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="height: 12px;"> Denial of Service</p>
+                                <p class="tbullets" onmouseover="updateTopic(5)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="height: 12px;"> System Misuse</p>
+
+                            </div>
+
+                            <div class="innerFLEX">
+                                <p class="tbullets" onmouseover="updateTopic(6)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="height: 12px;"> Hijacked Credentials</p>
+                                <p class="tbullets" onmouseover="updateTopic(7)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="height: 12px;"> Implants</p>
+                                <p class="tbullets" onmouseover="updateTopic(8)" style="cursor: pointer;"><img
+                                        src="assets/check-green.svg" style="height: 12px;"> Malicious Insiders</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+
+
+            </section>
+
+
+
+            <section id="expand" class="expand idiv" style="text-align: center;background: #83984B; padding:6px">
+                <h2 class="reverse" id="topicHeadlineWide">Hijacked Credentials</h2>
+                <div class="nowide"></div>
+                <div class="topicBox">
+                    <div class="containerFLEX" style="
+                margin-top: -8%;">
+                        <span id="topicPsWide"><img src="assets/check.svg">
+                            <p>Hijacked Credentials result from attackers successfully compromising a user via attacks
+                                such as phishing, malware, and social engineering. The goal is to carry out activities
+                                using these stolen credentials so that malicious actions are not detected in time.&nbsp;
+                            </p><img src="assets/check.svg">
+                            <p>Hijacked credentials do not occur in a vacuum and are preceded by other attacks like
+                                malware, phishing, etc., all of which Personam can proactively detect. Once an attacker
+                                attempts to misuse the credential that was stolen, this will be picked up by Personam’s
+                                powerful AI engine as a security deviation.</p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="cloverfieldMobile" class="expand idiv"
+                style="font-size:20px;text-align: center;background: url(assets/abc.png);background-size: cover;min-height: 0;">
+                <div class="center11">
+                    <div class="containerFLEX videoDiv">
+                        <div class="innerFLEX  flex50" style="
+                    text-align: right;
+                "><video autoplay="" src="https://personam.ai/assets/NoText_Autonomous%20threat_Slow_VP9.webm"
+                                style="max-width: 513px;position: relative;/* margin-top: 20px; */" loop=""></video></div>
+                        <div class="innerFLEX  flex50">
+                            <h2 style="font-size: 41px;margin-top: 7px;">Personam's Autonomous Threat detection powered
+                                by AI </h2>
+                            <div class="rec15"
+                                style="width: 51%;margin-top: -23px;margin-bottom: -15px;position: relative;/* margin: auto; */">
+                            </div>
+                            <p style="color:#333;font-size: 30px;font-weight: 700;">IT Just Got Real</p>
+                            <p style="color:#333;font-size: 26px;margin-top: -27px;">Unlike signature-based tools,
+                                Personam covers known threats and unknown emerging threats. </p>
+                
+                
+                            <p style="color:#333;font-size: 26px;">Personam is always learning the environment and creating context
+                                around how every device or user uses network resources to gauge whether the next action should or
+                                shouldn't be there.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="containerFLEX" style="margin-top: -0%;display:none"> <div class="innerFLEX  flex50" style="background-image: url(vid1.gif);     background-image: url(vid1.gif); background-repeat: no-repeat; background-size:contain                        ;"> <div id="cloverGroup" style=" text-align: center;  margin-top: 17%;"> <img src="ACE.png" style="display:none" alt=""><br><img src="detect.svg" alt="" style="display:none;width: 60%;margin: auto;/* padding-left: 12%; */"> <img src="vid1.gif" style="max-width: unset; width:500px" alt=""><br> <video type="video/mp4" controls="false" src="vid2.mp4" autoplay="true" loop style="width: 100%;"></video> </div> </div> </div> -->
+                </div>
+            </section>
+
+            <section id="cloverfield" class="expand idiv"
+                style="font-size:20px;text-align: center;background: url(assets/abc.png);background-size: cover;min-height: 0;">
+                <div class="center11">
+                    <div style=" background-image: url(assets/vid2.gif); width: 100%;  background-repeat: no-repeat; background-size: contain; min-height: 566px; background-position-y: 28px; "
+                        class="innerFLEX  flex50">
+                        <div style=" margin-left: 66%; ">
+                            <h2 style="font-size: 41px;margin-top: 7px;">Personam's Autonomous Threat detection powered
+                                by AI </h2>
+                            <div class="rec15"
+                                style="width: 51%;margin-top: -23px;margin-bottom: -15px;position: relative;/* margin: auto; */">
+                            </div>
+                            <p style="color:#333;font-size: 30px;font-weight: 700;">IT Just Got Real</p>
+                            <p style="color:#333;font-size: 26px;margin-top: -27px;">Unlike signature-based tools,
+                                Personam covers known threats and unknown emerging threats. </p>
+
+
+                                <p style="color:#333;font-size: 26px;">Personam is always learning the environment and creating context around how every device or user uses network resources to gauge whether the next action should or shouldn't be there.</p>
+                        </div>
+
+
+                        
+                    </div>
+                    <!-- <div class="containerFLEX" style="margin-top: -0%;display:none"> <div class="innerFLEX  flex50" style="background-image: url(vid1.gif);  background-repeat: no-repeat; background-size:contain                        ;"> <div id="cloverGroup" style=" text-align: center;  margin-top: 17%;"> <img src="ACE.png" style="display:none" alt=""><br><img src="detect.svg" alt="" style="display:none;width: 60%;margin: auto;/* padding-left: 12%; */"> <img src="vid1.gif" style="max-width: unset; width:500px" alt=""><br> <video type="video/mp4" controls="false" src="vid2.mp4" autoplay="true" loop style="width: 100%;"></video> </div> </div> </div> -->
+                </div>
+            </section>
+
+
+
+
+            <section id="alwaysMobile" class="expand idiv reverse"
+                style="text-align: center;background: #32342E;font-size:20px;padding:3% 15%;padding-top: 40px;">
+                <div class="center11">
+                    <div class="expand" style="text-align: center;">
+
+                        <h2 class="reverse thinking">Always Vigilant
+                        </h2>
+                        <div class="rec15 notwide"></div>
+                        <p
+                            style="font-size:16px;max-width: 850px; margin: auto; margin-top: 26px; margin-bottom: 30px;">
+                            Do you have
+                            questions about how personam fits in with your security infrastructure and protects
+                            against known (and unknown threats)?</p>
+                       <a href="/contact"><button  class="gray" style="border-radius: 40px;margin-bottom: 40px;">Get in Touch</button></a> 
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section id="always" class="expand idiv reverse"
+                style="text-align: center;background: #32342E; font-size:20px;padding:3% 15%">
+                <div class="center11">
+                    <div class="expand" style="text-align: center;">
+
+                        <h2 class="reverse thinking">Always Vigilant
+                        </h2>
+                        <div class="rec15 notwide"></div>
+                        <p style="max-width: 850px; margin: auto; margin-top: 26px; margin-bottom: 30px;">Do you have
+                            questions about how personam fits in with your security infrastructure and protects
+                            against known (and unknown threats)?</p>
+                       <a href="/contact"> <button class="gray" style="border-radius: 40px;">Get in Touch</button></a>
+                    </div>
+            </section>
+
+
+            <section id="chairDivMobile" class="idiv"
+                style="padding:12px;background:url(assets/chairs-with-logo2.jpg);background-size: cover;min-height: 870px; background-position: center;scroll-margin-top: 5rem; ">
+
+                <div class="center11">
+                    <div class="expand" style="text-align: center;">
+                        <h2>How it’s done</h2>
+                        <div class="rec15" style="margin-top: -9%; position: relative;"></div>
+                        <div class="containerFLEX">
+                            <div class="innerFLEX">
+
+                            </div>
+                            <div class="innerFLEX  flex60" style="color:#333"> <img style="max-width: 100%;"
+                                    src="assets/diagram.png" alt=""> </div>
+
+                            <img src="assets/sbar-bitmap.png" alt="">
+                        </div>
+                        <div class="sbar" >
+                            <div class="cspread"><span class="circleNumber">1</span> Host to host </div>
+                            <div class="cspread"><span class="circleNumber">2</span> Host to infrastructure </div>
+                            <div class="cspread"><span class="circleNumber">3</span> Host to-web </div>
+                            <div class="cspread"> <span class="circleNumber">4</span> Intra cloud</div>
+                        </div>
+
+
+                        <table style="width:100%;font-size:11px; text-align: left;" >
+                            <tbody>
+                                <tr>
+                                    <td class="mkangTD" >
+                                        <h3 style="font-size:15px;margin-bottom: 12px;">The process?<br> Always
+                                            learning.</h3>
+                                        <p style=" margin-bottom: 2px; ">Personam strengthens detection efficiency and heightens awareness of threats within the business network environment, swiftly identifying suspicious behavior before it can disrupt operations. </p>
+                                    </td>
+                                    <td class="mkangTD">
+                                        <h3 style="font-size:15px;margin-bottom: 12px;"> The result?<br> Unmatched
+                                            Detection.</h3>
+                                        <p style=" margin-bottom: 2px; ">Personam.ai is always vigilant and always learning, so your cyber security teams can focus on the bigger task at hand – improving your cyber resilience, not getting stuck in tool maintenance, updating detection rules, or suffering from alert fatigue. </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- <div class="containerFLEX" style="font-size: .8em;min-height: 700p;"> <div class="innerFLEX flex50" style="flex: 1 1 50%;/* min-height: 500px; */"> <div class="rlightBG" style=" min-height: 215px; font-size: .9em;min-height: 215px;"> <h3 style="font-size:15px;margin-bottom: 12px;">The process?<br> Always learning.</h3> <p style=" margin-bottom: 2px; ">Personam strengthens detection efficiency and heightens awareness of threats within the business network environment, swiftly identifying suspicious behavior before it can disrupt operations.</p> </div> </div> <div class="innerFLEX flex50" style="flex: 1 1 50%"> <div class="rlightBG" style=" min-height: 215px"> <h3 style="font-size:15px;margin-bottom: 12px;"> The result?<br> Unmatched Detection.</h3> <p style=" margin-bottom: 2px; ">Personam.ai is always vigilant and always learning, so your cyber security teams can focus on the bigger task at hand – improving your cyber resilience, not getting stuck in tool maintenance, updating detection rules, or suffering from alert fatigue. </p> </div> </div> </div> -->
+
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+            <section id="chairDiv" class="idiv"
+                style="padding:30px;background:url(assets/chairs-with-logo.jpg);background-size: cover;min-height: 700px; background-position: center;scroll-margin-top: 61px;">
+
+                <div class="center11">
+                    <div class="expand" style="text-align: center;">
+                        <h2 style="font-size: 60px;/* line-height: 0px; */margin-top: -10px;">How it’s done</h2>
+                        <div class="rec15"
+                            style="margin-top: -2%;position: relative;margin: auto;margin-top: -34px;/* margin-bottom: 34px; */max-width: 130px;">
+                        </div>
+                        <div class="containerFLEX" style="
+    margin-top: 19px;
+">
+                            <div class="innerFLEX">
+                                <div class="rlightBG">
+                                    <h3>The process?<br style="
+    font-size: 1.3em;
+">
+
+                                        Always learning.</h3>
+
+                                    <p style="
+    font-size: 1.15em;
+">Personam strengthens
+                                        detection efficiency and
+                                        heightens awareness of
+                                        threats within the business
+                                        network environment,
+                                        swiftly identifying suspicious
+                                        behavior before it can
+                                        disrupt operations.</p>
+                                </div>
+                            </div>
+                            <div class="innerFLEX  flex50" style="color:#333"> <img style="max-width: 100%;"
+                                    src="assets/diagram.png" alt=""> </div>
+
+                            <style>
+                                .rlightBG h3 {
+                                    font-weight: 400;
+                                    font-size: 24px;
+                                    margin-bottom: -10px;
+                                    margin-top: 1px;
+                                }
+                            </style>
+
+                            <div class="innerFLEX">
+                                <div class="rlightBG">
+                                    <h3>The result?<br>Unmatched Detection.</h3>
+                                    <p>Personam.ai is always vigilant
+                                        and always learning, so your
+                                        cyber security teams can
+                                        focus on the bigger task at
+                                        hand – improving your cyber
+                                        resilience, not getting stuck in
+                                        tool maintenance, updating
+                                        detection rules, or suffering
+                                        from alert fatigue. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sbar" style="transform: scale(1);">
+                            <div class="cspread"><span class="circleNumber">1</span> Host to host </div>
+                            <div class="cspread"><span class="circleNumber">2</span> Host to infrastructure </div>
+                            <div class="cspread"><span class="circleNumber">3</span> Host to-web </div>
+                            <div class="cspread"> <span class="circleNumber">4</span> Intra cloud</div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section id="expertMobile" class="expand idiv"
+                style="scroll-margin-top: 70px;background-image: url(assets/expertMobileBG.png);background-size: cover;background-position: center;min-height: 580px;">
+                <div style="margin:auto;text-align: center;margin-top: 62px;">
+                    <h2 class="mobileCenter" style="margin:auto;text-align: center; font-size: 25px">Expert Support To
+                        Enhance Your
+                        Cyber Defenses</h2>
+                </div>
+                <div class="rec15" style="width:20%;position: relative;margin: auto;margin-top: -8px;"></div>
+                <div class="innerFLEX  flex100 " style="padding: 12px 0;text-align: center;margin-top: 54px;">
+                    <div class="iconBlock " onclick="expertUpdateMobile(0)">Regulated Industries
+                    </div>
+                    <br>
+                    <div class="iconBlock " onclick="expertUpdateMobile(1)">IoT</div><br>
+                    <div class="iconBlock " onclick="expertUpdateMobile(2)">Zero Trust</div><br>
+                    <div class="iconBlock " onclick="expertUpdateMobile(3)">Payment Processing
+                    </div>
+                    <br>
+                    <div class="iconBlock " onclick="expertUpdateMobile(4)">Hybrid Environment
+                    </div>
+                    <br>
+                    <div id="expertMobileBox" onclick="document.getElementById('expertMobileBox').style.display='none'"
+                        style="display: none; font-size: 15px; margin: auto;">
+                        <table style="width:100%;">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h2 style="font-size: 38px;text-align: left;">Payment Processing</h2>
+                                    </td>
+                                    <td style="width:50%;">
+                                        <div
+                                            style="background-image:url('assets/payment.png');border:2px solid #83984B;   width: 108px; height: 108px;border-radius:100px;background-size:cover;">
+                                        </div> <img src="assets/unionPlus.svg"
+                                            style="position: absolute; top: 80px; width: 40px; right: 13px;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p style="margin:0">Payment processing requires storing, processing, and transmission of
+                            cardholder
+                            transactions in both online e-commerce and physical point-of-sale systems. The highly
+                            sensitive
+                            nature of data is regulated by standards like the Payment Card Industry Data Security
+                            Standard
+                            (PCI DSS), which has specific requirements for cybersecurity monitoring.</p>
+                        <p style="margin:0">PCI DSS requires a robust security monitoring program to be put in place
+                            that
+                            involves the collection, analysis, and storage of security event-related information. The
+                            program should allow companies to detect and respond to security events promptly.</p>
+                        <p style="margin:0">Personam AI can help detect attacks in a PCI DSS environment and respond to
+                            the
+                            same, enabling companies to meet the standard's requirements with minimum effort.</p>
+                        <div style="cursor:pointer;position: absolute; top: 3px;right: 5px;"
+                            onclick="document.getElementById('expertMobileBox').style.display='none'"><img
+                                src="assets/close-icon.svg" style="    width: 30px;height: 30px;"></div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section id="expert" class="expand idiv"
+                style="padding:0;background: url(assets/tower11.png);background-size: cover;  scroll-margin-top: 61px;  overflow: auto;">
+
+
+                <div class="center11">
+                    <div style="margin:auto;color:#333">
+                        <div style="max-width: 100%;margin: auto;">
+                            <section class="expertMargin">
+                                <h2 class="mobileCenter">Expert Support To Enhance Your Cyber Defenses</h2>
+                                <div class="rec15"
+                                    style="width: 25%;margin-top: -2%;position: relative;float: left;margin-left: 0;">
+                                </div>
+                            </section>
+
+                            <div class="superTabs" style="position: absolute;left:0">
+                                <style>
+                                    .innerTabText {
+                                        margin-top: 14px;
+                                        display: block;
+                                        text-align: center;
+                                    }
+                                </style>
+                                <div class="innerFLEX  flex10 mobileHide" style="padding: 12px 0;padding-top: 61px;">
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(0)">
+                                        <span class="innerTabText"> Regulated Industries</span>
+                                    </div>
+                                    <br>
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(1)">
+                                        <span class="innerTabText"> IoT</span>
+                                    </div><br>
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(2)">
+                                        <span class="innerTabText"> Zero Trust</span>
+                                    </div><br>
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(3)">
+                                        <span class="innerTabText"> Payment Processing</span>
+                                    </div>
+                                    <br>
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(4)">
+                                        <span class="innerTabText"> Hybrid Environment</span>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="nonsuperTabs" style="display:none; position: absolute;left:30">
+                                <div class="innerFLEX  flex10 mobileHide" style="padding: 12px 0;">
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(0)">Regulated Industries
+                                    </div>
+                                    <br>
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(1)">IoT</div><br>
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(2)">Zero Trust</div><br>
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(3)">Payment Processing
+                                    </div>
+                                    <br>
+                                    <div class="iconBlock sideTabs" onmouseover="expertUpdate(4)">Hybrid Environment
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="containerFLEX exboxHeight">
+                                <div class="innerFLEX  flex10 mobileHide tabsUnder1100" style="padding: 12px 0;">
+                                    <!-- <div class="iconBlock sideTabs" onmouseover="expertUpdate(0)">Regulated Industries</div>
+                                <br>
+                                <div class="iconBlock sideTabs" onmouseover="expertUpdate(1)">IoT</div><br>
+                                <div class="iconBlock sideTabs" onmouseover="expertUpdate(2)">Zero Trust</div><br>
+                                <div class="iconBlock sideTabs" onmouseover="expertUpdate(3)">Payment Processing</div>
+                                <br>
+                                <div class="iconBlock sideTabs" onmouseover="expertUpdate(4)">Hybrid Environment</div>
+                                <br> -->
+
+                                </div>
+
+
+
+                                <div id="industryListMobile" class="innerFLEX  flex40 style=" display:none;position:
+                                    relative;">
+                                    <h2>Regulated Industries</h2>
+                                    <span><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Industries like Banking, Insurance, Healthcare,
+                                            etc., are highly regulated due to the sensitive nature of the data they
+                                            process.</p><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Regulations like Basel II, HIPAA, and General Data
+                                            Protection Regulation (GDPR) place stringent requirements for organizations
+                                            to maintain adequate cybersecurity defenses and respond to cyber events in
+                                            real-time.</p><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Relevant authorities must also be notified in the
+                                            event of a cybersecurity incident.</p><img src="assets/check.svg"
+                                            style="display:none">
+                                        <p style="margin:10px 50px;">Personam helps industries meet these requirements
+                                            by mitigating their operational risk exposure to cyber threats enabling
+                                            speedy response to cybersecurity events.</p><img src="assets/check.svg"
+                                            style="display:none">
+                                        <p style="margin:10px 50px;">Its machine learning-powered engine gives you
+                                            complete visibility into security events enabling you to demonstrate
+                                            compliance with the security rules of these standards.</p>
+                                    </span>
+
+                                    <h2>IoT</h2>
+                                    <span><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">The Internet of Things allows millions of
+                                            intelligent devices to be connected and exchange information via a network
+                                            without human involvement.</p><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">This network can present a massive attack surface
+                                            for cybercriminals to exploit for malicious reasons. Attacks can be
+                                            devastating due to their ability to disrupt human lives and industries where
+                                            IoT is being used.</p><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">IoT industry is also regulated by standards like
+                                            the ENISA baseline recommendations and ISO ISO/IEC 27400:2022</p><img
+                                            src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Personam AI can help meet these requirements with
+                                            its intelligent monitoring capabilities, removing the need for implementing
+                                            multiple disconnected solutions.</p><img src="assets/check.svg"
+                                            style="display:none">
+                                        <p style="margin:10px 50px;">Personam also gives you complete visibility into
+                                            events at the network level allowing automated responses to IoT security
+                                            events.</p>
+                                    </span>
+
+                                    <h2>Zero Trust</h2>
+                                    <span><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Zero Trust is a concept in security that ensures
+                                            that no implicit trust is granted to any entity, and every request should be
+                                            analyzed regardless of whether it originates from within or outside the
+                                            network.</p><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Zero Trust is not a product or a standard but a
+                                            paradigm shift in how security is approached and is necessary as
+                                            cyberattacks become increasingly sophisticated daily.</p><img
+                                            src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">One of the fundamental cornerstones of a Zero Trust
+                                            strategy is the visibility that Personam enables due to the deep-level
+                                            network monitoring it provides.</p><img src="assets/check.svg"
+                                            style="display:none">
+                                        <p style="margin:10px 50px;">Traditional security solutions can become
+                                            overwhelmed with the amount of data required to be collected to follow Zero
+                                            Trust guidelines.</p><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">This is not a problem with Personam as its powerful
+                                            machine learning-powered engine can easily make sense of the “security
+                                            noise” and filter out key events that require attention.</p>
+                                    </span>
+
+                                    <h2>Payment Processing</h2>
+                                    <span><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Payment processing requires storing, processing,
+                                            and transmission of cardholder transactions in both online e-commerce and
+                                            physical point-of-sale systems. The highly sensitive nature of data is
+                                            regulated by standards like the Payment Card Industry Data Security Standard
+                                            (PCI DSS), which has specific requirements for cybersecurity monitoring.</p>
+                                        <img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">PCI DSS requires a robust security monitoring
+                                            program to be put in place that involves the collection, analysis, and
+                                            storage of security event-related information. The program should allow
+                                            companies to detect and respond to security events promptly.</p><img
+                                            src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Personam AI can help detect attacks in a PCI DSS
+                                            environment and respond to the same, enabling companies to meet the
+                                            standard's requirements with minimum effort.</p>
+                                    </span>
+
+                                    <h2>Hybrid Environment</h2>
+                                    <span><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Hybrid working environments have become common,
+                                            resulting in an increased attack surface with multiple endpoints connecting
+                                            from various locations.Deployment of agents in such a complex environment
+                                            can be a profound logistical challenge, along with visibility and incident
+                                            response.</p><img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Personam’s AI-driven approach does not require any
+                                            agent deployment and provides complete visibility into security events
+                                            allowing businesses to get the full benefits of a hybrid environment.</p>
+                                        <img src="assets/check.svg" style="display:none">
+                                        <p style="margin:10px 50px;">Automated security response action means that
+                                            cybersecurity teams can focus only on the key events that require attention.
+                                        </p>
+                                    </span>
+                                </div>
+
+
+                                <div id="industryList" class="innerFLEX  flex40 mobileHide"
+                                    style=" position: relative;">
+
+
+                                    <h2 id="expertHeadline">Regulated Industries</h2>
+                                    <span id="expertText" style="margin-top: -29px;display: inline-block;"><img
+                                            src="assets/check-green.svg" class="mobileHide"
+                                            style="max-width: 18px;position: relative;left: -26px;top: 23px;">
+                                        <p style="margin:0">Industries like Banking, Insurance, Healthcare, etc., are
+                                            highly
+                                            regulated due to the sensitive nature of the data they process.</p>
+                                        <img src="assets/check-green.svg" class="mobileHide"
+                                            style="max-width: 18px;position: relative;left: -26px;top: 23px;">
+                                        <p style="margin:0">Regulations like Basel II, HIPAA, and General Data
+                                            Protection
+                                            Regulation (GDPR) place stringent requirements for organizations to maintain
+                                            adequate cybersecurity defenses and respond to cyber events in real-time.
+                                        </p>
+                                        <img src="assets/check-green.svg" class="mobileHide"
+                                            style="max-width: 18px;position: relative;left: -26px;top: 23px;">
+                                        <p style="margin:0">Relevant authorities must also be notified in the event of a
+                                            cybersecurity incident.</p>
+                                        <img src="assets/check-green.svg" class="mobileHide"
+                                            style="max-width: 18px;position: relative;left: -26px;top: 23px;">
+                                        <p style="margin:0">Personam helps industries meet these requirements by
+                                            mitigating
+                                            their operational risk exposure to cyber threats enabling speedy response to
+                                            cybersecurity events.</p>
+                                        <img src="assets/check-green.svg" class="mobileHide"
+                                            style="max-width: 18px;position: relative;left: -26px;top: 23px;">
+                                        <p style="margin:0">Its machine learning-powered engine gives you complete
+                                            visibility
+                                            into security events enabling you to demonstrate compliance with the
+                                            security
+                                            rules
+                                            of these standards.</p>
+                                    </span>
+
+                                    <p></p>
+                                </div>
+                                <div class="mobileHide innerFLEX  flex40" style="position: relative;"><img
+                                        id="expertImage" style="max-width:100%;opacity:1;position: relative;"
+                                        src="assets/tower10.png" alt=""><img src="assets/unionPlus.svg"
+                                        style="position: absolute;top:350px;width:85px;left: 418px;">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </section>
+
+
+
+
+
+
+            <section id="futureProofMobile" class="expand idiv rdarkBG reverse"
+                style="text-align: center;font-size: 16px;">
+                <div class="center11">
+                    <div style="max-width: 90%; margin: auto;">
+                        <h2 class="reverse" style=" font-size: 30px; ">Personam.ai is the Answer to Cyber Security
+                            Threats
+                            that haven’t even been developed yet.</h2>
+                        <div class="rec15" style="margin-top: 9%;position: relative;margin: auto;"></div>
+                        <p>Rely on our AI-powered Threat Detection Engine to give you the visibility, analytics, and
+                            diagnostics needed to empower your SOC against known and unknown threats.</p>
+                        <p> Schedule a Demo Now and see what Personam can do for you!</p><button onclick="location.assign('/contact/')"class="gray" style="
+                margin-bottom: 20px;
+            ">Schedule a Demo</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section id="futureProof" class="expand idiv rdarkBG reverse" style="text-align: center; font-size: 20px;">
+                <div class="center11" style="
+    font-size: 26px;
+">
+                    <div style="max-width: 90%; margin: auto;">
+                        <h2 class="reverse" style="margin-bottom: 0;margin-top: 0;">Personam.ai is the Answer to Cyber
+                            Security Threats that haven’t even been
+                            developed yet.</h2>
+                        <p>Rely on our AI-powered Threat Detection Engine to give you the visibility, analytics, and
+                            diagnostics needed to empower your SOC against known and unknown threats.</p>
+                        <p> Schedule a Demo
+                            Now and see what Personam can do for you!</p><button class="gray" onclick="location.assign('/contact/')">Schedule a Demo</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section id="theExpertsMobile" class="expand idiv" style="text-align: center; display:none;">
+                <div class="center11">
+                    <div class="">
+                        <div style="text-align: left;max-width: 76%;">
+                            <h2 style="font-size: 30px;">Get Privacy &amp; Performance Tips, From The Experts</h2>
+                            <div class="rec15" style="width:20%;margin-top: 9%;position: relative;margin: auto;"></div>
+                        </div>
+                        <div style="text-align: right;position: relative;top: 30%;margin-top: -20%;margin-bottom: 12%;">
+
+                        </div> <br>
+                        <div style="
+    text-align: left;
+    margin-bottom: 18px;
+"><button class="gray" style="margin-top:1%;border-radius: 40px;margin-right: 0px;margin-top: 20px;">View
+                                All</button></div>
+
+                    </div>
+                    <div id="modalContainerm" style="margin-top: -13%;    margin-bottom: 34px;">
+                        <section id="controls" style="position: relative;top: 156px;display:block">
+                            <img src="assets/arrow-left.svg" onclick="slidem('down')"
+                                style="width:50px;position: relative;right: 38%;">
+                            <img src="assets/arrow-right.svg" onclick="slidem('up')"
+                                style="width:50px;position: relative;left: 38%;">
+                        </section>
+                        <div class="modalHolder" id="mholdm" style="overflow: hidden;">
+                            <div style="width:307px; margin:auto;" id="slide1m">
+                                <section class="modalOuter">
+                                    <div id="eePic" class="modalOuter"
+                                        style="background: url(assets/plant.jpg); height: 100px;background-size: cover;"></div>
+                                    <h4 id="eeh4">Disaster Planning</h4>
+                                    <p id="eePara">Lorem ipsum dolor sit amet</p>
+                                </section>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section id="theExperts" class="expand idiv" style="text-align: center; display:none;">
+                <div class="center11">
+                    <div class="containerFLEX">
+                        <div class="innerFLEX flex80">
+                            <h2 style="font-size: 42px;">Get Privacy &amp; Performance Tips, From The Experts</h2>
+
+
+                            <div class="rec15"
+                                style="width: 30%;/* margin-top: 9%; */position: relative;/* margin: auto; */top: -14px;margin-bottom: -5px;">
+                            </div>
+                        </div>
+                        <div class="innerFLEX flex20 mobileHide"> <button class="gray"
+                                style="margin-top: 22%; margin-left: 71px;">View
+                                All</button></div>
+
+                    </div>
+                    <div id="modalContainer" style="margin-bottom: 40px;">
+                        <section id="controls" style="position: relative;top: 216px;" class="mobileHide">
+                            <img src="assets/arrow-left.svg" onclick="slide('down')"
+                                style="width:32px;position: relative;right: 50%;cursor:pointer">
+                            <img src="assets/arrow-right.svg" onclick="slide('up')"
+                                style="width:32px;position: relative;left: 50%;cursor:pointer">
+                        </section>
+                        <div class="containerFLEX modalHolder" id="mhold" style="overflow: hidden;">
+                            <div class="innerFLEX flex20" id="slide0">
+                                <section class="modalOuter cardHolder">
+                                    <div class="modalOuter"
+                                        style="background: url(assets/laptop.png); background-size:cover;height:100px;"></div>
+                                    <h4>Application Security</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                    </p>
+                                </section>
+                            </div>
+                            <div class="innerFLEX flex20" id="slide1">
+                                <section class="modalOuter cardHolder">
+                                    <div class="modalOuter"
+                                        style="background: url(assets/plant.jpg); background-size:cover;height:100px;"></div>
+                                    <h4>Disaster Planning</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                    </p>
+                                </section>
+                            </div>
+                            <div class="innerFLEX flex20" id="slide2">
+                                <section class="modalOuter cardHolder">
+                                    <div class="modalOuter"
+                                        style="background: url(assets/code.png); background-size:cover;height:100px;"></div>
+                                    <h4>Application Security</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                    </p>
+                                </section>
+                            </div>
+                            <div class="innerFLEX flex20" id="slide3">
+                                <section class="modalOuter cardHolder">
+                                    <div class="modalOuter"
+                                        style="background: url(assets/code2.png); background-size:cover;height:100px;"></div>
+                                    <h4>Cloud Security</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                    </p>
+                                </section>
+                            </div>
+                            <div class="innerFLEX flex20" id="slide4">
+                                <section class="modalOuter cardHolder">
+                                    <div class="modalOuter"
+                                        style="background: url(assets/database.jpg); background-size:cover;height:100px;">
+                                    </div>
+                                    <h4>Database Hardening</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                    </p>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+            <section id="questionsMobile" class="expand idiv rdarkBG reverse" style="display:none;text-align: center;">
+                <div class="center11">
+                    <h2 class="reverse">Have Questions?</h2>
+                    <div class="rec15 notwide" style="height:4px;margin:auto;    height: 4px;
+        margin: auto;
+        margin-top: -24px;
+        width: 60px;"></div>
+                    <p>Do you have questions about how personam fits in with your security infrastructure and protects
+                        against known (and unknown threats)?</p>
+                        <a href="/contact">  <button class="gray" style="    margin-bottom: 40px;">Get in Touch</button></a>
+                </div>
+            </section>
+
+for (let a )
+
+            <section id="questions" class="expand idiv rdarkBG reverse"
+                style="display:none; text-align: center;font-size: 20px;scroll-margin-top: 61px;">
+                <div class="center11">
+                    <h2 class="reverse" style="margin-top: 0;">Have Questions?</h2>
+                    <p>Do you have questions about how personam fits in with your security infrastructure and protects
+                        against known (and unknown threats)?</p>
+                        <a href="/contact"><button class="gray" style="margin-bottom: 5px;">Get in Touch</button></a>
+                </div>
+            </section>
+
+
+
+
+
+
+            <section id="hackersMobile" class="expand idiv"
+                style="min-height:435px;font-size:20px;text-align: center; background: url(assets/mobileSOCBaground.png);background-size: cover;">
+
+                <div class="center11">
+
+                    <table style="vertical-align: top;">
+                        <tr style="vertical-align: top;">
+                            <td style="text-align: left;width:60%;">
+                                <h2 style="font-size:33px;margin-top: 11px;">Is your SOC Ahead of the Hackers?</h2>
+                                <div class="rec15 notwide"
+                                    style="height:4px;    height: 4px;margin-top:-15px; width: 90px;"></div>
+                                <p style="color:#333">A Simple, 3-Step Process to Your Organization's Security</p>
+                            </td>
+                            <td style="text-align: left;width:40%;">
+
+                                <div style="text-align: center;"><img src="assets/vertsoc.png"
+                                        style="width: 148px;float:right;max-width: unset;" alt="">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+
+
+            <section id="hackers" class="expand idiv"
+                style="font-size:24px;text-align: center; background: url(assets/bottom-chairs.png);background-size: cover;">
+
+                <div class="center11">
+                    <h2 style="font-size:55px">Is your SOC Ahead of the Hackers?</h2>
+                    <div class="rec15"
+                        style="    width: 20%; margin-top: 9%; /* position: relative; */ margin: auto; margin-top: -29px; margin-bottom: -6px;">
+                    </div>
+                    <p style="color:#333">A Simple, 3-Step Process to Your Organization's Security</p>
+                    <div style="text-align: center;margin-top: 136px;"><img src="assets/Group290.png"
+                            style="width:1136px;margin-top: -66px;" alt="">
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+            <section id="footer" class="expand idiv rdarkBG reverse" style="text-align: center; font-size: 22px;">
+
+                <div class="center11">
+                    <div class="containerFLEX">
+                        <div class="innerFLEX  flex40">
+                            <section class="footerButtons"> <img src="assets/logo-white.svg" alt="" style="width:200px"><br>
+                                <button class="gray" style="margin-top: 10%;" onclick="location.assign('/contact/')">Schedule a
+                                    Demo</button>
+                            </section>
+                        </div>
+                        <div class="innerFLEX  flex30">
+                            <p><a href="/#plantDiv" style="color:white; text-decoration: none;">About Us</a></p>
+                            <p><a href="/#expert" style="color:white; text-decoration: none;">Solutions</a></p>
+                            <p style="display:none">Resources</p>
+                            <p style="display:none">Blog</p>
+                            <p  style="display:none">Cookies</p>
+                            <p>
+                                <a href="/contact/" style="color:white; text-decoration: none;">Contact Us</a>
+                                
+                                </p>
+                        </div>
+                        <div class="innerFLEX  flex30">
+                            <p><a href="/terms/" style="color:white; text-decoration: none;">Site Terms of Use</a></p>
+                            <p><a href="/privacy/" style="color:white; text-decoration: none;">Privacy Policy</a></p>
+                           
+                            <p><a href="/investor-relations/" style="color:white; text-decoration: none;">Investor Relations</a></p>
+                            <p><a href="/reseller-portal/" style="color:white; text-decoration: none;">Reseller Portal</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="copyright" class="expand idiv rdarkBG reverse" style="text-align: center; font-size: 22px; background: #32342E;">
+
+                <div class="center11">
+                    <div class="containerFLEX">
+                        <div class="innerFLEX  flex40">
+                            <section style="font-size: 14px; text-align: center;" class="dates">
+                                © 2017-2023 Personam.ai, LLC | All Rights Reserved |  <a style="color:white;" href="/privacy/">  This site uses cookies.</a>
+                            </section>
+                        </div>
+                   
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VREX1FJ85N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VREX1FJ85N');
+</script>
+</body>
+
+
+<script id="personam-home">
+
+    var p, e, r, s, o, n, a, m;
+
+    function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: "smooth", block: "start", inline: "start" });
+    }
+    var modals = [];
+    var m = `
+                    Application Security;assets/laptop.png;Lorem ipsum dolor sit amet
+                    Disaster Planning;assets/plant.jpg;Lorem ipsum dolor sit amet
+                    Database Hardening;assets/code.png;Lorem ipsum dolor sit amet
+                    Cloud Security;assets/database.jpg;Lorem ipsum dolor sit amet
+                    Network Testing;assets/code2.png;Lorem ipsum dolor sit amet
+                 
+                    `.trim().split(`\n`);
+    for (let a of m) {
+        var obj = {};
+        obj.name = a.split(";")[0].trim();
+        obj.image = a.split(";")[1].trim();
+        obj.text = a.split(";")[2].trim();
+        modals.push(obj);
+    }
+
+    function s1m() {
+        var el = document.getElementById('threats');
+        el.style.position = "relative";
+        el.style.animationName = "example"
+        el.style.animationDuration = ".4";
+        el.style.opacity = "0"
+        //el.style.left  ='200px';
+    }
+
+    function slidem(direction) {
+        if (!window.emcount) {
+            window.emcount = 0;
+        }
+        if (direction == 'up') {
+            window.emcount++;
+        }
+        if (direction == 'down') {
+            window.emcount = window.emcount - 1;
+        }
+        if (window.emcount == 5) {
+            window.emcount = 0;
+        }
+        if (window.emcount == -1) {
+            window.emcount = 4;
+        }
+        console.log(emcount)
+        document.getElementById('eePic').style.background = `url(${modals[emcount].image})`;
+        document.getElementById('eePic').style.backgroundSize = `cover`;
+        document.getElementById('eeh4').innerHTML = modals[emcount].name;
+        document.getElementById('eePara').innerHTML = modals[emcount].text;
+    }
+
+    function convertDivToCenter11() {
+        let a = prompt("element name");
+        document.getElementById(a).outerHTML = `<div class="center11">${a.outerHTML}</div>`;
+        //convertDivToCenter11()
+    }
+
+    var t = [{ "paragraphs": ["Regulated Industries", "Industries like Banking, Insurance, Healthcare, etc., are highly regulated due to the sensitive nature of the data they process.", "Regulations like Basel II, HIPAA, and General Data Protection Regulation (GDPR) place stringent requirements for organizations to maintain adequate cybersecurity defenses and respond to cyber events in real-time.", "Relevant authorities must also be notified in the event of a cybersecurity incident.", "Personam helps industries meet these requirements by mitigating their operational risk exposure to cyber threats enabling speedy response to cybersecurity events.", "Its machine learning-powered engine gives you complete visibility into security events enabling you to demonstrate compliance with the security rules of these standards."], "head": "Regulated Industries", "image": "assets/tower10.png" }, { "paragraphs": ["IoT", "The Internet of Things allows millions of intelligent devices to be connected and exchange information via a network without human involvement.", "This network can present a massive attack surface for cybercriminals to exploit for malicious reasons. Attacks can be devastating due to their ability to disrupt human lives and industries where IoT is being used.", "IoT industry is also regulated by standards like the ENISA baseline recommendations and ISO ISO/IEC 27400:2022", "Personam AI can help meet these requirements with its intelligent monitoring capabilities, removing the need for implementing multiple disconnected solutions.", "Personam also gives you complete visibility into events at the network level allowing automated responses to IoT security events."], "head": "IoT", "image": "assets/IoT.png" }, { "paragraphs": ["Zero Trust", "Zero Trust is a concept in security that ensures that no implicit trust is granted to any entity, and every request should be analyzed regardless of whether it originates from within or outside the network.", "Zero Trust is not a product or a standard but a paradigm shift in how security is approached and is necessary as cyberattacks become increasingly sophisticated daily.", "One of the fundamental cornerstones of a Zero Trust strategy is the visibility that Personam enables due to the deep-level network monitoring it provides.", "Traditional security solutions can become overwhelmed with the amount of data required to be collected to follow Zero Trust guidelines.", "This is not a problem with Personam as its powerful machine learning-powered engine can easily make sense of the “security noise” and filter out key events that require attention."], "head": "Zero Trust", "image": "assets/zt.png" }, { "paragraphs": ["Payment Processing", "Payment processing requires storing, processing, and transmission of cardholder transactions in both online e-commerce and physical point-of-sale systems. The highly sensitive nature of data is regulated by standards like the Payment Card Industry Data Security Standard (PCI DSS), which has specific requirements for cybersecurity monitoring.", "PCI DSS requires a robust security monitoring program to be put in place that involves the collection, analysis, and storage of security event-related information. The program should allow companies to detect and respond to security events promptly.", "Personam AI can help detect attacks in a PCI DSS environment and respond to the same, enabling companies to meet the standard's requirements with minimum effort."], "head": "Payment Processing", "image": "assets/payment.png" }, { "paragraphs": ["Hybrid Environment", "Hybrid working environments have become common, resulting in an increased attack surface with multiple endpoints connecting from various locations.Deployment of agents in such a complex environment can be a profound logistical challenge, along with visibility and incident response.", "Personam’s AI-driven approach does not require any agent deployment and provides complete visibility into security events allowing businesses to get the full benefits of a hybrid environment.", "Automated security response action means that cybersecurity teams can focus only on the key events that require attention."], "head": "Hybrid Environment", "image": "assets/hybrid.png" }];
+
+    var threats = [
+        {
+            "topic": "RansomWare",
+            "paragraphs": [
+                "Ransomware is malware that encrypts data and files, making them inaccessible to companies unless a ransom is paid. This malware can have a devastating impact on business operations and quickly spread to production and backup systems.",
+                "Ransomware enters a network by exploiting vulnerabilities within the infrastructure. Personams powerful signature-less machine learning algorithms stop ransomware in real time by detecting deviations from a standard network baseline and alerting the cybersecurity team."
+            ]
+        },
+        {
+            "topic": "Phishing",
+            "paragraphs": [
+                "Phishing is an attempt to socially engineer employees to make them click on or download malicious attachments. These attachments usually contain malware that can be used to compromise the user’s machine and further gain a foothold onto the network. ",
+                "Personam’s AI engine can monitor network activity in detail and immediately alert the security team if an attacker attempts to compromise a machine or user via a phishing attack."
+            ]
+        },
+        {
+            "topic": "Data Exfiltration",
+            "paragraphs": [
+                "Data exfiltration threatens sensitive company data like personally identifiable information (PII), trade secrets, intellectual property, etc. Malicious insiders or outsiders can attempt to exfiltrate this data outside the corporate network resulting in data breaches, regulatory fines, and severe reputational damage to a company name. ",
+                "Personam can identify data exfiltration attempts due to the behavior profile it builds by continuously monitoring user actions. Security teams can be proactively alerted on this malicious user activity to take remedial action."
+            ]
+        },
+        {
+            "topic": "Privilege Escalation",
+            "paragraphs": [
+                "Privilege escalation allows attackers to assume powerful access within a system by exploiting its vulnerabilities. Once this access is gained, the attacker can navigate the network further and carry out further attacks.",
+                "Personam builds behavior profiles using network packet monitoring via port mirroring. This detailed information enables Personam to compare a user’s activities with their historical baseline and alert the security team when an attacker attempts to exploit their privilege"
+            ]
+        },
+        {
+            "topic": "Denial of Service",
+            "paragraphs": [
+                "Denial of Service attacks a network’s availability to extort or disrupt a company’s operations. The attacker aims to flood the company’s network with so many requests that legitimate requests cannot be responded to. ",
+                "Denial of Service attacks is typically preceded by an attacker scanning the network to assess its vulnerabilities. Personam can identify these sorts of attempts and alert the security teams enabling them to raise the security alert status to “HIGH” before the Denial of Service attack begins. [1]"
+            ]
+        },
+        {
+            "topic": "System Misuse",
+            "paragraphs": [
+                "System Misuse involves the unauthorized usage of resources like computer systems, networks, and other assets in a way that violates that company policy.",
+                "Personam’s user profiling enables security teams to be immediately alerted if a user’s activities change from their historical baseline. This is the clearest example of a system being misused and enables the security team to begin investigations immediately."
+            ]
+        },
+        {
+            "topic": "Hijacked Credentials",
+            "paragraphs": [
+                "Hijacked Credentials result from attackers successfully compromising a user via attacks such as phishing, malware, and social engineering. The goal is to carry out activities using these stolen credentials so that malicious actions are not detected in time. ",
+                "Hijacked credentials do not occur in a vacuum and are preceded by other attacks like malware, phishing, etc., all of which Personam can proactively detect. Once an attacker attempts to misuse the credential that was stolen, this will be picked up by Personam’s powerful AI engine as a security deviation."
+            ]
+        },
+        {
+            "topic": "Implants",
+            "paragraphs": [
+                "Implants are malicious software that can hide within a system or a network remaining undetected by traditional security tools. The attacker uses implants to maintain continued access to a company’s network and carry out malicious activities such as monitoring users, data exfiltration, system misuse, etc. ",
+                "Personam builds behavior profiles using network packet monitoring via port mirroring. This detailed information enables Personam to compare a system’s activities with its historical baseline and alert the security team when implants attempt to carry out malicious activities."
+            ]
+        },
+        {
+            "topic": "Malicious Insiders",
+            "paragraphs": [
+                "An insider threat is when an individual with authorized access to an organization's system intentionally or unintentionally causes harm or damage to the system, data, or network. This can include stealing sensitive information, deleting or altering data, or disrupting the system's functionality. ",
+                "Personam’s algorithms identify when a user is not behaving like themselves or the other users on the network.  Alerts are raised identifying when someone using valid access starts digging where they don’t typically operate, quickly growing an alert."
+            ]
+        }
+    ];
+
+    function showmobileButtonGroup() {
+        if (!window.smbg) {
+            document.getElementsByClassName("mobileButtonGroup")[0].style.display = 'block';
+            window.smbg = '2';
+            return;
+        }
+        if (window.smbg) {
+            document.getElementsByClassName("mobileButtonGroup")[0].style.display = 'none';
+            delete (window.smbg);
+        }
+    }
+
+    function updateTopic(i) {
+        var out = '';
+        
+        document.getElementById('topicHeadlineWide').innerHTML = threats[i].topic;
+        document.getElementById('topicHeadline').innerHTML = threats[i].topic;
+        for (let a of threats[i].paragraphs) {
+            out += `<img src="assets/check.svg"><p>${a}</p>`;
+        }
+        document.getElementById('topicPsWide').innerHTML = out;
+        document.getElementById('topicPs').innerHTML = out;
+    }
+
+    function expertUpdateMobile(i) {
+        var el = document.getElementById('expertMobileBox');
+        var out = `<table style="width:100%;"><tr><td><h2 style="font-size: 28px;text-align:left;margin-left:20px">${t[i].head}</h2></td><td style="width:50%;"> <div style="background-image:url('${t[i].image}');border:2px solid #83984B;   width: 108px; height: 108px;border-radius:100px;background-size:cover;"></div> <img src="assets/unionPlus.svg" style="position: absolute; top: 80px; width: 40px; right: 30px;text-align:left;"> </td></tr></table> `;
+
+        //<h2>${t[i].head} <img src="${t[i].image}" style="    width: 60px;height: 60px;"></h2>
+        //<img src="unionPlus.svg" style="position: absolute;top:50px;width:19px;left: 0px;">
+
+        var out2 = '';
+        var j = 0;
+        for (let a of t[i].paragraphs) {
+            if (j !== 0) {
+                out2 += `<p style="margin:0; text-align:left;margin:20px">${a}</p>`;
+            }
+            j++;
+        }
+        out += out2;
+        out += `<div style="cursor:pointer;position: absolute; top: 3px;right: 5px;" onclick="document.getElementById('expertMobileBox').style.display='none'"><img src="assets/close-icon.svg" style="    width: 30px;height: 30px;"></div>`;
+
+        document.getElementById('expertMobileBox').innerHTML = out;
+        document.getElementById('expertImage').style.display = 'block';
+        document.getElementById('expertMobileBox').style.display = "block";
+    }
+
+    function expertUpdate(i) {
+        document.getElementById('expertImage').style.opacity = 0;
+        var out = '';
+        var j = 0;
+        for (let a of t[i].paragraphs) {
+            if (j !== 0) {
+                out += `<img src="assets/check-green.svg" class="mobileHide" style="max-width: 18px;position: relative;left: -26px;top: 23px;"> <p style="margin:0">${a}</p>`;
+            }
+            j++;
+        }
+        document.getElementById('expertHeadline').innerHTML = t[i].head;
+        document.getElementById('expertText').innerHTML = out;
+        document.getElementById('expertImage').src = t[i].image;
+        document.getElementById('expertImage').style.opacity = 1;
+    }
+
+    function s1() {
+        var el = document.getElementById('threats');
+        el.style.position = "relative";
+        el.style.animationName = "example"
+        el.style.animationDuration = ".4";
+        el.style.opacity = "0"
+        //el.style.left  ='200px';
+    }
+
+    function slide(direction) {
+        var col = document.getElementsByClassName('cardHolder');
+        var last = col[col.length - 1];
+        var first = col[0];
+        var i = 0;
+        var arr = [];
+        for (let a of col) {
+            arr.push(a.outerHTML);
+        }
+        for (let a of col) {
+            if (direction == 'up') {
+                if (i == 0) {
+                    col[i].outerHTML = arr[arr.length - 1];
+                }
+                else {
+                    col[i].outerHTML = arr[i - 1];
+                }
+            }
+
+            if (direction == 'down') {
+                if (i == arr.length - 1) {
+                    col[i].outerHTML = arr[0];
+                } else {
+                    col[i].outerHTML = arr[i + 1];
+                }
+            }
+            //a.style.position = "relative";
+            //a.style.marginLeft += "100px";
+            i++;
+        }
+    }
+    function swap(im) {
+        for (let a of document.getElementsByClassName('recboxtop')) {
+            if (a.src.match(/dark/)) {
+                a.src = a.src.replace(/\-dark/, '');
+            }
+        }
+        document.getElementById(im).src = document.getElementById(im).src.replace(/.svg/, "-dark.svg")
+    }
+
+    function BuildMobileIndustries() {
+        var out = '';
+        for (let a of t) {
+            var i = 0;
+            var p = '';
+            for (let b of a.paragraphs) {
+                if (i > 0) {
+                    p += `<img src="assets/check.svg" style="display:none"><p style="margin:10px 50px;">${b}</p>`;
+                }
+                i++
+            }
+            out += `<h2>${a.head}</h2><span>${p}</span>`;
+        }
+        industryListMobile.innerHTML = out;
+    }
+    BuildMobileIndustries();
+
+    var ani = `hornsnail betta jellyfish caridea treekangaroo antarcticprion wholphin katydid endangeredspecies camel shark rockptarmigan barracuda dzo bluefish takahe mountaingoat zubron bactriancamel gerbil mussel chimpanzee jackrabbit pumapard sockeye arkclam pelican hamiltonstovare dog lamb marsupialmole slipperlobster toucan marsupials crab shellfish papillon chamois viper fox cranefly clownfish weimaraner pigeon crayfish spider hermitcrab panther horse armadillo plantbug tuna guineapig ant cormorant birds crocodile beetle firefly whelk quail rocklobster duck bittern aardvark scarabbeetle quoll vulture markhor piglet spectacledbear seacucumber ray addax beaver boxmatian prawn americanblackbear cygnet nematode leopon salamander kissingfish bull finwhale hyena frilledshark amphibians zodiacmoth grasshopper amurleopard snowleopard capebuffalo fly cheetah ferret cuttlefish winkle chough lemming taiwandog bengal javanese gerenuk saigaantelope graywhale vampirebat egyptianmau kangaroorat basketclam slug bison redpanda swan skink echidna lioncub hummingbird woodlouse shrimp tigercub pika blackbuck platypus turtle dipper tonkinese catbreeds bear dunnart rattlesnake caribou boa purplefrog sparrow manx zebroid sweetsnail walrus horseconch mantisshrimp gazelle dalmatian ostrich scallop civet arthropods javanrhino savannahcat cod blackwidowspider walkingstick cichlid invertebrates affenhuahua giantpanda arowana stoat sealion hainangibbon ocicat mollusks anglerfish pets owl valleybulldog piranha lovebird adder octopus ophiuraophiura lemur fawn polarbear mule greyhound electriceel hawkmoth haddock arcticfox tiger hairlesscat coypu darwinsfox penguin ankolewatusi drill snapper mulard snail cow caiman cockle squid bonobo ratterrier krill gilamonster beefalo bilby sparklemuffin cat centipede panda mammals taipan sturgeon nebelung chiton brownbear harpyeagle jerboa chicken alligatorgar duckling bass newt chartreux orangutan jackapoo capybara chausie cricket greenanole bighornsheep scorpion joey springbok wasp tasmaniandevil flea accentor elephantshrew colt vinegaroon africanwilddog cottonrat hippo knobbedwhelk eel tenrec narluga salmon lyrebird yabby bluesheep weddellseal tapir dolphin ox himalayan antarcticpenguin arctichare antelope bandicoot bunny budgie wombat bird seagull thornbug lobster squirrel swallow kangaroorat donkey sloth boxerdoodle proboscismonkey lion bluefintuna toad wallaby grolarbear dhole cama elk bowheadwhale reptiles pig anteater snake insects devonrex gecko pronghorn badger japanesebobtail cockroach neapolitanmastiff scampi baldeagle abyssinian echinoderms sunfish bullfrog alligator deer caracal earthworm liger barbet hatchling giraffe koala archerfish gopher bitterling saintberdoodle somali jay bee wildebeest flyingsquirrel puffer cockatoo crustaceans hamster maltese ragamuffin sealily rabbit moth marmot gharial snowleopard ayeaye sphynx stickinsect clam stingray korat meerkat olm tortoise belugawhale fennecfox koreanjindodog andeanmountaincat catfish avocet agouti flowerpecker kingfisher bengaltiger peacock worm desman starfish yorkipoo seal oyster seaurchin quokka kea wolfdog xoloitzcuintli puppy carp zonkey mainecoon goldfish elephant falcon pangolin thomsonsgazelle sowbug bluewhale coyote seahorse hen hedgehog flamingo coot prairiedog sugarglider butterfly gartersnake anemone calf landcrab axolotl dromedary aardwolf crow eagle tick hippopotamus marlin coralsnake tuatara coywolf tadpole seapen hermitcrab woodpecker degu redfox bream quahog buffalo hare xerus frog blackleopard coral skunk persian millipede yakalo quarterhorse whale angelfish eland oviparity angler pike backswimmer iguana jaguar chick sunbear jaglion treefrog raven binturong goose indri macaw vaquita crane bluetang omuraswhale snowyowl turkey africanwilddog reindeer americancurl chinchilla lizard swordfish himalayantahr ladybug maggot shoebill ibizanhound fossa sanddollar hinny numbat cobra chipmunk softshelledturtle africanbuffalo babirusa crinoid earwig caterpillar zebra fish blackpanther dallsporpoise nightingale coati caecilian ironagepig dachsador scottishfold goat jabirustork labpointer greenturtle oldenglishsheepdog fieldspaniel hawksbillturtle harpseal laperm narwhal bat lacebug bengalcat leopard exoticshorthair nutria cloudedleopard havana cocoon gorilla goshawk pin kitten llama tuskshell flyingdragon abalone dugong mackerel jackasspenguin magpie greymullet sheep moose rooster yellowjacket geep python dogbreeds opossum sawfish climbingperch muskox deathadder rhinoceros spidermonkey brittlestar cassowary mite termite yak dibbler dragonfly snowpetrel kangaroo mouse horsefly balinese monkey okapi longnosedbat trout perch cairnterrier tarsier cougar barnacle gosling anaconda saola foal tigon parrot codfish dove chameleon possum`.split(' ');
+
+
+</script>
+
+</html>

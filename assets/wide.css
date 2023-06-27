@@ -1,0 +1,243 @@
+@media all and (min-width:900px) {
+    #mobileNav {
+        display: none;
+    }
+
+    #towerBG {
+        display:block;
+        backgroundimage: unset;
+        width: 100%;
+        min-height: 801px;
+        background-size: cover;
+        /* background-position-y:0px; */
+        background-position: unset;
+    }
+    #towerBGMobile {
+        display:none;
+    }
+
+    .expertMargin {
+        max-width: 78%;
+        margin: auto;
+        margin-left: 145px;
+    }
+
+    #cloverfield{
+        min-height: 633px;
+        display:block;
+    }
+
+    #cloverfieldMobile{
+        display:none;
+    }
+
+    .mobile {
+        display:none;
+    }
+    #alwaysMobile{
+        display:none;
+    }
+	#expandMobile{
+        display:none;
+    }
+    #expand{
+        display:block;
+    }
+	
+    #majorBullets {
+        /* top: 57px; */
+    }
+
+    .topicBox {
+        margin: auto;
+        min-height: unset;
+        padding: 20px 0;
+    }
+
+
+
+    #chairDivMobile {
+        display: none;
+    }
+
+    #threatsMobile {
+        display: none;
+    }
+
+    #hackersMobile {
+        display: none;
+    }
+
+    #questionsMobile {
+        display: none;
+    }
+
+    .nowide {
+        display: none;
+    }
+
+    .notwide {
+        display: none;
+    }
+
+    #expertMobile {
+        display: none;
+    }
+
+    #theExpertsMobile {
+        display: none;
+    }
+
+    #futureProofMobile {
+        display: none;
+    }
+    .superTabs {
+        width:9%;
+        /* display:none; */
+    }
+}
+
+@media all and (min-width:1100px) {
+
+
+    .expertMargin {
+        max-width: 78%;
+        margin: auto;
+        margin-left: 166px;
+    }
+
+
+    .tabsUnder1100 {
+        display: block;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+
+    #chairDivMobile {
+        display: none;
+    }
+
+    .h1C {
+        padding-left: 0;
+    }
+
+    .heroButton {
+        margin-left: 0;
+    }
+
+    .recboxtop {
+        width: 259px;
+    }
+
+    .gotReal {
+        margin: 147px 3%;
+    }
+
+    #majorBullets {
+        top: 57px;
+    }
+    .nonsuperTabs  .sideTabs{
+        border-radius: 12px;
+    }
+    #expertImage {
+        /* left: 40px; */
+        left: 57px;
+    }
+    #hackers{
+        min-height: 661px;
+    }
+
+    #plantDiv {
+        min-height: 807px;
+    }
+    .superTabs {
+        width:11%;
+        /* display:none; */
+    }
+}
+
+@media all and (min-width:1350px) {
+    #mobileNav {
+        display: none;
+    }
+    .superTabs {
+        width:17%;
+        /* display:none; */
+    }
+
+    .h1C {
+        padding-left: 0;
+    }
+
+    .heroButton {
+        margin-left: 0;
+    }
+
+
+    .recboxtop {
+        max-width: unset;
+        width: 259px;
+    }
+
+    .gotReal {
+        margin: 147px 3%;
+    }
+
+
+
+    .superTabs {
+        position: absolute;
+        left: 0;
+        display: block;
+    }
+
+    .tabsUnder1100 {
+        /* display:none; */
+    }
+
+    #chairDivMobile {
+        display: none;
+    }
+}
+@media all and (min-width:1650px) {
+    .superTabs {
+        width:20%;
+    }
+}
+@media all and (min-width:1750px) {
+    .superTabs {
+        width:22%;
+    }
+}
+@media all and (min-width:1850px) {
+    .superTabs {
+        width:25%;
+    }
+}
+@media all and (min-width:1950px) {
+    .superTabs {
+        width:26%;
+    }
+}
+@media all and (min-width:2050px) {
+    .superTabs {
+        width:28%;
+    }
+}
+@media all and (min-width:2150px) {
+    .superTabs {
+        width:30%;
+    }
+}
+@media all and (min-width:2250px) {
+    .superTabs {
+        width:32%;
+    }
+}
+
+
+
+
+
